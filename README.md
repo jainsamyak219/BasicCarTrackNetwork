@@ -13,14 +13,14 @@
   7.1) Regitster the User
     Post Method:
         input Json Format:
-        {
+      EX:  {
     "userId":"samyakjain",
     "orgMSP":"Org2MSP"
         }
         
    7.2) Invoke using Tx APi:
     
-      {
+    EX:  {
     "userId":"samyakjain",
     "orgMSP":"Org2MSP",
     "channelName":"mychannel",
