@@ -8,8 +8,8 @@
   4.1) Invoke and query smart contract through DeployChaincodeContractApi.sh script (Through Commented portion code for different invoke function and query)
 
 5) npm install in api-server directory
-6) node app.js (up the server).
-7)Using Postman
+6) Through command **node app.js** up the server
+7) Using Postman
   7.1) Regitster the User
     Post Method:
         input Json Format:
