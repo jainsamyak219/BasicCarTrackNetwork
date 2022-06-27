@@ -1,0 +1,42 @@
+[
+        {
+                "MSPID": "Org1MSP",
+                "LedgerHeight": 11,
+                "Endpoint": "peer0.org1.example.com:7051",
+                "Identity": "-----BEGIN CERTIFICATE-----\nMIICKTCCAc+gAwIBAgIRANJW3XXL8cNSw0h7ZytvHDwwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMjIwNjI3MDQ0MzAwWhcNMzIwNjI0MDQ0MzAw\nWjBqMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzENMAsGA1UECxMEcGVlcjEfMB0GA1UEAxMWcGVlcjAub3Jn\nMS5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHpGCIqOQz0R\nptNSX2bQG0FulcIxlv/pehmPibk5sacborNT1omUMxtL3Hj9o45I0stWjLI73X1y\npNPblgOgk5ujTTBLMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1Ud\nIwQkMCKAIDcexhaVGotr10QUqLwY4lGxj2P1aveEPnB32wtOAbBsMAoGCCqGSM49\nBAMCA0gAMEUCIQC4x9jV8NvP4tdrXu27J7lM0nFqURHv4UOAyH5l01tUkwIgPCPs\n6L/Ah3Aw0ib0OiQsUIoFXHrAQhVg9FfFeavxLr4=\n-----END CERTIFICATE-----\n",
+                "Chaincodes": [
+                        "TrackCar",
+                        "_lifecycle"
+                ]
+        },
+        {
+                "MSPID": "Org1MSP",
+                "LedgerHeight": 11,
+                "Endpoint": "peer1.org1.example.com:8051",
+                "Identity": "-----BEGIN CERTIFICATE-----\nMIICKDCCAc+gAwIBAgIRAJj6xdbj+dAlKEY02lHgP90wCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMjIwNjI3MDQ0MzAwWhcNMzIwNjI0MDQ0MzAw\nWjBqMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzENMAsGA1UECxMEcGVlcjEfMB0GA1UEAxMWcGVlcjEub3Jn\nMS5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOLIwljVKrsK\n2gUz8tCSS4evLz5KAoOlYNtt954tSnC9D2xqXNt72Af0aZKP0DqjQ+406uzB6dnF\nfCrXVimsiOejTTBLMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1Ud\nIwQkMCKAIDcexhaVGotr10QUqLwY4lGxj2P1aveEPnB32wtOAbBsMAoGCCqGSM49\nBAMCA0cAMEQCIDgYfdW5tVgo0SgMLSgznSAsfMFAlwN9niWgPkqWbS1rAiAumNZP\nolXbygyplemFuOz1CVzU5ARfiNvJ0rfI5GYsmg==\n-----END CERTIFICATE-----\n",
+                "Chaincodes": [
+                        "TrackCar",
+                        "_lifecycle"
+                ]
+        },
+        {
+                "MSPID": "Org2MSP",
+                "LedgerHeight": 11,
+                "Endpoint": "peer0.org2.example.com:9051",
+                "Identity": "-----BEGIN CERTIFICATE-----\nMIICKTCCAc+gAwIBAgIRALeJjnjnBUKD/khy+M/x8aIwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzIuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzIuZXhhbXBsZS5jb20wHhcNMjIwNjI3MDQ0MzAwWhcNMzIwNjI0MDQ0MzAw\nWjBqMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzENMAsGA1UECxMEcGVlcjEfMB0GA1UEAxMWcGVlcjAub3Jn\nMi5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABN4RgF9FVQjB\n16sTOW6woo9gSicsBG5tufCYZQXMGlL8b0S4dJWdV6s2BRkMDgiayTlEhdMMHxg7\nll99+707N5ujTTBLMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1Ud\nIwQkMCKAIMMS8nQcU19L8gS11KnVd7F0m9n48+zUIvpvz9WGe16rMAoGCCqGSM49\nBAMCA0gAMEUCIQDuS0Cu13zuLHND5gu1MHXykvBoRVpWWoxasnasP9Dk6wIgebJO\nqWAIeN7wnV7usogSAInToDEpFHJAuzb+zDRypvE=\n-----END CERTIFICATE-----\n",
+                "Chaincodes": [
+                        "TrackCar",
+                        "_lifecycle"
+                ]
+        },
+        {
+                "MSPID": "Org2MSP",
+                "LedgerHeight": 11,
+                "Endpoint": "peer1.org2.example.com:10051",
+                "Identity": "-----BEGIN CERTIFICATE-----\nMIICKTCCAc+gAwIBAgIRALkEZmkM0YmtkteAshxIWDwwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzIuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzIuZXhhbXBsZS5jb20wHhcNMjIwNjI3MDQ0MzAwWhcNMzIwNjI0MDQ0MzAw\nWjBqMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzENMAsGA1UECxMEcGVlcjEfMB0GA1UEAxMWcGVlcjEub3Jn\nMi5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPnRIP3zXIgr\n1UFPL6Hl3d+d/PRIos/82zSWQPBPZzHWXOVPN22u1GBaLxyWVHFiu9mgJRxN0PEQ\n6+NmnN+cpeKjTTBLMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1Ud\nIwQkMCKAIMMS8nQcU19L8gS11KnVd7F0m9n48+zUIvpvz9WGe16rMAoGCCqGSM49\nBAMCA0gAMEUCIQD+0i+D60rL4HFFvLd8wEvj5VW8g5HiACMl3G2hIk/m7AIgZ+pB\noV/jAJWFVLIarYviTPaXo9H/8NV0q28z3lz6L+U=\n-----END CERTIFICATE-----\n",
+                "Chaincodes": [
+                        "TrackCar",
+                        "_lifecycle"
+                ]
+        }
+]
