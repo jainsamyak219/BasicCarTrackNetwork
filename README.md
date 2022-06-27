@@ -13,8 +13,6 @@
   7.1) Regitster the User
     Post Method:
         input Json Format:
-       
-       EX:
         {
     "userId":"samyakjain",
     "orgMSP":"Org2MSP"
