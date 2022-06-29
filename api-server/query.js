@@ -16,7 +16,7 @@ exports.query = async (request) => {
     await gateway.connect(ccp, {
         wallet,
         identity: request.userId,
-        discovery: { enabled: true, asLocalhost: false } // using asLocalhost as this gateway is using a fabric network deployed locally
+        discovery: { enabled: true, asLocalhost: true } // using asLocalhost as this gateway is using a fabric network deployed locally
     });
 
     // Build a network instance based on the channel where the smart contract is deployed
